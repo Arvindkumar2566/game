@@ -1,0 +1,15 @@
+.white_left_box{
+    font-size: 12px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 768px){
+    .rules-sheet{
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 93%;
+    }
+    .white_left_box{
+        width: 100%;
+    }
+   
+}

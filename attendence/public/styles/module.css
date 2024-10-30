@@ -1,0 +1,27 @@
+.m_content{
+    font-size: 10px;
+}
+#sessions,.sessions_top{
+    height: 25px;
+    font-weight: 500;
+    border: none;
+}
+.h_line{
+    height: 400px;
+    border: 1px #E0E0E0 solid;
+}
+.schedule:hover{
+    border: none !important;
+    background-color: #e3f2fd;
+    border-left: #1976d2 solid 6px !important ;
+    border-radius:1px !important;
+}
+.co7:hover{
+    border: none !important;
+    background-color: #e3f2fd;
+    border-left: #1976d2 solid 6px !important ;
+    border-radius:1px !important;
+}
+.session_m{
+    width: 192px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/module.css">
+
+</head>
+<body>
+    <div class="boy d-flex justify-content-start m-4 mb-0">
+        <div class="col-sm-2">
+            <div class="left_one bg-white">
+                <img class="container d-flex justify-content-center" style="width:80%" src="assets/attendence.jpeg" alt="attendence"> 
+                <div>
+                    <!-- first one -->
+                    <div class="d-flex justify-content-center left_content">
+                        <img src="assets/dash_board.svg" alt="dash_board">
+                        <a class="fw-bold text-black fs-6 ps-2 p-4 py-3 text-decoration-none" href="index.html">Dashboard</a>
+                    </div>
+                    <!-- secound -->
+                    <div class="d-flex justify-content-center left_content">
+                        <img src="assets/calender.svg" alt="Calendar">
+                        <a class="fw-bold text-black fs-6 ps-2 p-4 py-3 text-decoration-none" href="#">Calendar</a>
+                    </div>
+                    <!-- third -->
+                    <div class="d-flex justify-content-center left_content">
+                        <img src="assets/module.svg" alt="modules">
+                        <a class="fw-bold text-black fs-6 ps-2 p-4 py-3 text-decoration-none" href="module.html">Modules</a>
+                    </div>
+                    <!-- forth -->
+                    <div class="d-flex justify-content-center left_content rules">
+                        <img src="assets/rule.svg" alt="Rules">
+                        <a class="fw-bold text-black fs-6 ps-2 p-4 py-3 text-decoration-none" href="rules.html">Rules</a>
+                    </div>
+                    <!-- fifth one logout -->
+                    <div class="d-flex justify-content-center left_content logout">
+                        <img src="assets/logout.svg" alt="Rules">
+                        <a class="fw-bold text-black fs-6 ps-2 p-4 py-3 text-decoration-none " href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--right side-->
+        <div class="m-2 col-sm-10">    
+            <div>
+                <div  class="right_side px-2 col-sm-12 d-flex justify-content-between">
+                    <!-- right_left -->
+                    <div class="f all-search me-2 ">
+                        <form class="d-flex search-bar ">
+                            <input class="form-control me-2" id="me-2" type="text" placeholder="Search">
+                            <button class="btn btn-primary search_bg " type="button"><img class="search justify-content-center" src="assets/search.png" alt="search"></button>                    
+                        </form>
+                    </div>
+                    <!-- right_right -->
+                    <div class="right_right d-flex m-4 ">
+                        <!-- right_right_left(notification) -->
+                        <div class="bell ">
+                            <button type="button" class="btn btn-primary position-relative bell_bg d-flex justify-content-center bg-white  ">
+                                <img src="assets/bell.png" alt="bell">
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger notification_top">
+                                  9
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                              </button>
+                        </div>
+                        <!-- right_right_right -->
+                         <div class="right_right_right d-flex ">
+                            <!-- img -->
+                            <div class="img-name  ">
+                                <img class="nav-img" src="assets/person.png" alt="arvind_pic">
+                            </div>
+                            <!-- name_email -->
+                            <div>
+                                <p class="h6  mb-0">Jhon Watson</p>
+                                <p>jw221@student.le.ac.uk</p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <!-- red border -->
+                <div class="sem mx-4 my-2 d-flex  align-items-center bg-danger text-white fs-6 ">
+                    <div class="sem1">
+                    <p class="sem1 mb-0 p-2 ">semester</p>
+                    </div>
+                    <div class="sem2">
+                    <p class=" mb-0 p-2 ">semester</p>
+                    </div>
+                </div>
+            </div>
+            <!-- left down -->
+        <div class="m-4 p-2 ">
+            <p class="fs-6"><b>Module wise Attendance Update</b></p>
+            <!-- white box -->
+            <div class="m_table p-2 d-flex shadow bg-body rounded">
+                <!-- table left -->
+                <div class="table_l py-4 px-2 col-sm-2">
+                    <p><b>Modules</b></p>
+                    <div>
+                        <div class="co7 co_s p-2">
+                            <p class="mb-0"><b>CO7221</b></p>
+                            <p class="m_content">Research Methods and Theries in HCl</p>
+                        </div>
+                        <div class="co7 co_s p-2">
+                            <p class="mb-0"><b>CO4225/CO7225</b></p>
+                            <p class="m_content">Service Design</p>
+                        </div>
+                        <div class="co7 co_s p-2">
+                            <p class="mb-0"><b>CO3093</b></p>
+                            <p class="m_content">Big data Predictive Analytics</p>
+                        </div>
+                        <div class="co7 co_s p-2">
+                            <p class="mb-0"><b>CO7221</b></p>
+                            <p class="m_content">Personal and Group Skills</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <img class="stright_line h_line mx-3" src="assets/stright_line.svg" alt="stright_line">
+                <!-- table right -->
+                <div class="table_r  p-4 col-sm-9 ">
+                    <div class="sessions_top d-flex justify-content-between">
+                        <p>Sessions of this module</p>
+                        <select name="Sessions" id="sessions">
+                            <option value="sm">All Sessions</option>
+                        </select>
+                    </div>
+                    <!-- schedules -->
+                     <div class="mt-4">
+                        <!-- schedules-1 --> 
+                        <div class="schedule mt-2 mx-4 d-flex justify-content-sm-between align-items-center border border-dark rounded">
+                            <p class="opacity-50 m-0 p-2 ">14-01-2021</p>
+                            <p class="m-0 p-2 "><b>Class 1</b></p>
+                            <p class="m-0 p-2 session_m"><b>Introduction to HCL</b></p>
+                            <div class="d-flex ">
+                                <img src="assets/right_mark.svg" alt="right_mark">
+                                <p class="m-0 p-2 ms-2">Present</p>
+                            </div>
+                        </div>
+                        <!-- schedules-2 -->
+                        <div class="schedule mt-2 mx-4 d-flex justify-content-between align-items-center border border-dark rounded">
+                            <p class="opacity-50 m-0 p-2 date_21">18-01-2021</p>
+                            <p class="m-0 p-2 class_r"><b>Class 2</b></p>
+                            <p class="m-0 p-2 session_m"><b>Models</b></p>
+                            <div class="d-flex ab-pre_sent">
+                                <img src="assets/wrong_mark.svg" alt="wrong_mark">
+                                <p class="m-0 p-2 ms-2">Absent</p>
+                            </div>
+                        </div>
+                        <!-- schedules-3 -->
+                        <div class="schedule mt-2 mx-4 d-flex justify-content-between align-items-center border border-dark rounded">
+                            <p class="opacity-50 m-0 p-2">25-01-2021</p>
+                            <p class="m-0 p-2"><b>Class 3</b></p>
+                            <p class="m-0 p-2 session_m"><b>Experimental design</b></p>
+                            <div class="d-flex">
+                                <img src="assets/right_mark.svg" alt="right_mark">
+                                <p class="m-0 p-2 ms-2">Present</p>
+                            </div>
+                        </div>
+                        <!-- schedules-4 -->
+                        <div class="schedule mt-2 mx-4 d-flex justify-content-between align-items-center border border-dark rounded">
+                            <p class="opacity-50 m-0 p-2">28-01-2021</p>
+                            <p class="m-0 p-2"><b>Class 4</b></p>
+                            <p class="m-0 p-2 session_m"><b>Experimental Research</b></p>
+                            <div class="d-flex">
+                                <img src="assets/right_mark.svg" alt="right_mark">
+                                <p class="m-0 p-2 ms-2">Present</p>
+                            </div>
+                        </div>
+                        <!-- schedules-5 -->
+                        <div class="schedule mt-2 mx-4 d-flex justify-content-between align-items-center border border-dark rounded">
+                            <p class="opacity-50 m-0 p-2">02-02-2021</p>
+                            <p class="m-0 p-2"><b>Class 5</b></p>
+                            <p class="m-0 p-2 session_m"><b>Statistical Analysis</b></p>
+                            <div class="d-flex">
+                                <img src="assets/right_mark.svg" alt="right_mark">
+                                <p class="m-0 p-2 ms-2">Present</p>
+                            </div>
+                        </div>
+                     </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

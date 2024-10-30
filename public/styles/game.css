@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; }
+#game-container { margin: 50px auto; width: 300px; text-align: center; }
+button { padding: 10px 20px; font-size: 16px; }
+#score { margin-top: 20px; font-size: 18px; }
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    background-color: #E1BEE7;
+    color: #311B92;
+    border-radius: 5px;
+}
+#num1,#num2,#num3{
+    background-color: rgb(249, 249, 250);
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}

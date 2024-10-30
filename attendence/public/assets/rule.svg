@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_17" data-name="Group 17" transform="translate(0 0.133)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="32" height="32" transform="translate(0 -0.133)" fill="#fff" opacity="0"/>
+    <path id="check_box_FILL0_wght200_GRAD0_opsz48" d="M10.1,32.467a2.089,2.089,0,0,1-2.1-2.1V10.1A2.089,2.089,0,0,1,10.1,8H30.364a2.089,2.089,0,0,1,2.1,2.1V30.364a2.089,2.089,0,0,1-2.1,2.1Zm0-1.185H30.364a.914.914,0,0,0,.917-.917V10.1a.914.914,0,0,0-.917-.917H10.1a.914.914,0,0,0-.917.917V30.364a.914.914,0,0,0,.917.917Zm7.913-5.849,9.9-9.9-.841-.841-9.06,9.022-4.473-4.4-.841.841ZM9.185,31.281v0Z" transform="translate(-4 -4)"/>
+  </g>
+</svg>

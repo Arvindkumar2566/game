@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Generation Game</title>
+    <link rel="stylesheet" href="styles/game.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Number Generation Game</h1>
+        <button onclick="playGame()">Play</button>
+        <div class="numbers">
+            <div id="num1">&#128522;</div>
+            <div id="num2">&#128522;</div>
+            <div id="num3">&#128522;</div>
+        </div>
+        <div id="num"></div>
+        <div id="result"></div>
+        <div id="score"></div>
+    </div>
+
+    <script src="styles/game.js"></script>
+    <script>
+        let score = 1000;
+
+        function playGame() {
+            let gameResult = numberGenerationGame(score);
+            score = gameResult.score;
+            document.getElementById('result').innerHTML = gameResult.comment;
+            document.getElementById('score').innerHTML = "Remaining Score: " + score;
+        }
+    </script>
+</body>
+</html>

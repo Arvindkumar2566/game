@@ -1,0 +1,248 @@
+body{
+    background-image:url(assets/background.svg);
+}
+.nav-img{
+    width: 43px;
+    border-radius: 50%;
+    margin: 0px 15px;
+    box-shadow: 0px 0px 2px 0px red;
+}
+.me-2{
+    margin: 0px !important;
+    height: 36px;
+    border-radius: 0px;
+    width: 100%;
+}
+.bell_bg{
+    border: none;
+    border-radius: 3px;
+    margin: 0px 35px;
+}
+.left_one{
+  height:100%;
+  box-shadow: 1px 0px 3px 0px #0000006e;
+}
+.search_bg{
+    width: 141px;
+    background-color: red;
+    border: none;
+    border-radius: 0px;
+    height: 36px;
+}
+.search{
+    height: 20px;
+}
+.search-bar{
+    margin: 20px;
+    height: 20px;
+}
+.sem1:hover{
+    text-decoration:underline;
+}
+.right_side{
+    height: 70px;
+}
+.months{
+    margin: 0px 20px;
+    border: none;
+    width: 73px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 14px;
+    font-weight: 500;
+}
+#All_modules{
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+.line{
+    width: 94% !important;
+}
+.percentage{
+    font-size: 12px;
+}
+.path_line{
+    border: 1px solid #5f5656;
+}
+.curved_line{
+    position: relative;
+    bottom: 194px;
+    left: 72px;
+    width: 226px;
+    filter: drop-shadow(-5px -1px 3px red);
+}
+.red-dot{
+    position: relative;
+    bottom: 158px;
+    left: 60px;
+}
+.percentage_table{
+    height: 357px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.percent{
+    padding: 2px 0px;
+}
+.tooltip_1 {
+    background-color: white;
+    width: 88px;
+    height: 50px;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 3px 1px red;
+    position: relative;
+    bottom: 190px;
+    left: 253px;
+    font-size: 12px;
+}
+.box_paragraph{
+    font-size: 7px;
+}
+.num{
+    font-size: 9px;
+}
+.arrow{
+    background-color: #FFEBEE;
+    width: 100%;
+    padding: 4px;
+    border-radius: 50%;
+}
+.box{
+    width: 126px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px black;
+    transition: all 0.50s ease-in;
+}
+.box:hover{
+    position: relative;
+    bottom: 15px;
+    
+}
+.eight{
+    color: #9E9D24;
+}
+.left-red-dot{
+    width: 10px;
+}
+.stright_line{
+    border: 1px #E0E0E0 solid;
+    height: 600px;
+}
+.left_left_left-left{
+    height:600px ;
+}
+.dot{
+    font-size: 12px;
+    font-weight: 500;
+}
+.llll{
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px black;
+    padding-bottom: 1px;
+}
+.under-lineb{
+    width: 100%;
+    border: 1px #757575 solid;
+}
+.under-line{
+    width: 100%;
+}
+.arrows{
+    background-color: #EEEEEE;
+    padding: 4px 12px;
+    border-radius: 2px;
+}
+.main-blue-box{
+    background-color: #E3F2FD;
+    padding: 2px;
+    margin: 10px 0px;
+    border-left: 8px blue solid;
+}
+.box-r_content{
+    font-size: 10px;
+}
+.blue-box{
+    font-size: 8px;
+}
+.blue_boxs{
+    font-size: 8px;
+}
+.blue_line{
+    width: 100%;
+}
+.main-green-box{
+    background-color: #E0F2F1;
+    padding: 2px;
+    margin: 10px 0px;
+    border-left: 8px green solid;
+    margin-bottom: 0px;
+}
+.red_link{
+    position: relative;
+    left: 76%;
+    bottom: 5px;
+    font-size: 10px;
+}
+.self-content{
+    font-size: 10px;
+    font-weight: 500;
+   
+}
+.self_certification{
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.better-knowing{
+    font-size: 11px;
+    font-weight: 500;
+}
+.date_monday{
+    font-size:13px;
+}
+.rule-better-knowing{
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.self_content{
+    font-size: 12px;
+}
+.rule_content{
+    font-size: 13px;
+}
+.logout{
+    position: relative;
+    top: 290px;
+}
+.left_content:hover{
+    background-color: #FFEBEE;
+    border-left: 9px solid #F44336;
+    margin: 0px 12%;
+    border-radius: 4px;
+    color: white;
+}
+.rules{
+    position: relative;
+    right: 11px;
+}
+@media only screen and (max-width: 768px){
+    .stright_line {
+    /* border: 1px #E0E0E0 solid; */
+     height: 30px;
+    }
+    .h_table{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-h-table{
+        width: 96%;
+    }
+   
+
+}
+
+
+
